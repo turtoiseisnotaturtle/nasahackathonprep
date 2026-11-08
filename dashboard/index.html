@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crew Health – Gesture Demo</title>
+</head>
+<body>
+  <div id="app">
+    <canvas id="viewer"></canvas>
+    <aside id="panel">
+      <nav id="icons"></nav>
+      <h2 id="metric-title"></h2>
+      <div id="metric-value"></div>
+      <input id="slider" type="range" min="0" max="100" step="0.1" />
+      <p id="status">Gesture: disconnected</p>
+      <p id="gesture-name">—</p>
+    </aside>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
